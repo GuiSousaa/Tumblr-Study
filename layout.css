@@ -1,0 +1,203 @@
+
+body {
+    display:grid;
+    margin: 0;
+    height:100vh; 
+    grid-template-areas:
+    "main aside"
+    "main aside"
+    "footer footer";
+    grid-template-rows: 50px 1fr 15px;
+    grid-template-columns: 1880px ;
+    background-color: rgb(180, 149, 149);
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(https://i.imgur.com/o6KTxZA.jpg);
+    background-position: left;
+    background-size: cover;
+    
+
+    
+}
+
+.header {
+    
+    background-color: rgb(56, 8, 8);
+    position: fixed;
+    width: 1920px;
+    height: 70px;
+    z-index: 3;
+    bottom: 880px;
+    background-image: url(https://dvfnvgxhycwzf.cloudfront.net/media/ShopDesignSplit4/logo/.fHl615xX/ShopDesign-4614/Aurora.png?t=de74b69e7921680f525f);
+    background-size: 10%;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+} 
+    .logo {
+        object-fit: contain;
+    }
+
+main {
+    grid-area: main;
+    background-color: rgba(180, 149, 149 0);
+    z-index: 0;
+
+}
+
+
+footer {
+    
+    grid-area: footer;
+    background-color: rgb(255, 220, 220);
+    width: 1920px;
+    height: 30px;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    top: 925px;
+    
+
+    
+
+
+}
+
+.profile {
+    display: grid;
+    grid-template-areas:
+    "cover cover"
+    "top right"
+     ;
+    background-color: rgb(255, 220, 220);
+    width: 300px;
+    height: 500px;
+    position: fixed;
+    right: 1520px;
+    top: 200px;
+}
+
+    .cover {
+       grid-area: cover;
+        background-color: black;
+        width: 290px;
+        height: 440px;
+        position: relative;
+        left: 5px;
+        top: 5px;;
+        z-index: 1;
+        background-image: url(https://static.wikia.nocookie.net/aurora-aksnes/images/8/8c/A_Dangerous_Thing_-_Single.jpg/revision/latest/scale-to-width-down/1200?cb=20220107073134) ;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .button {
+        grid-area: top ;
+        background-color: rgb(56, 8, 8);
+        position: relative;
+        top:460;
+        width: 142px;
+        height: 45px;
+        display: flex;
+        justify-content: center;
+        margin: 3px;
+        top: 2px;
+        left:2px;
+        align-items: center;
+        color: rgba(255, 220, 220, 0.404);
+        
+    }
+
+    .button1 {
+        grid-area: right;
+        background-color: rgb(56, 8, 8);
+        position: relative;
+        top:460;
+        width: 142px;
+        height: 45px;
+        display: flex;
+        justify-content: center;
+        margin: 3px;
+        top: 2px;
+        align-items: center;
+        color: rgba(255, 220, 220, 0.404);
+
+    }
+
+.post {
+    background-color: rgb(255, 220, 220);
+    width: 500px;
+    height: 500px;
+    position: relative;
+    left: 700px;
+    top:160px;
+    
+
+    
+}   
+
+.post2 {
+    background-color: rgb(255, 220, 220);
+    width: 500px;
+    height: 500px;
+    position: relative;
+    left: 700px;
+    top:180px; 
+}
+
+.post3 {
+    background-color: rgb(255, 220, 220);
+    width: 500px;
+    height: 500px;
+    position: relative;
+    left: 700px;
+    top:200px;
+} 
+
+.image1 {
+    background-color: rgb(180, 149, 149);
+    width: 490px;
+    height: 450px;
+    position: relative;
+    left: 5px;
+    top: 5px;
+    background-image: url(https://64.media.tumblr.com/fb093c69c2a764ea47be7d9cc19c9215/e3964f73f4849b4c-a5/s540x810/6ffa94e12e00f34efdb8e461b77d66a11b4a688e.gifv);
+
+
+}
+
+.image1 {
+    background-color: rgb(180, 149, 149);
+    width: 490px;
+    height: 450px;
+    position: relative;
+    left: 5px;
+    top: 5px;
+    background-image: url(https://64.media.tumblr.com/fb093c69c2a764ea47be7d9cc19c9215/e3964f73f4849b4c-a5/s540x810/6ffa94e12e00f34efdb8e461b77d66a11b4a688e.gifv);
+
+
+}
+
+.image2 {
+    background-color: rgb(180, 149, 149);
+    width: 490px;
+    height: 450px;
+    position: relative;
+    left: 5px;
+    top: 5px;
+    background-image: url(https://64.media.tumblr.com/f1a2a8e35f818f65fc883f946144e643/e3964f73f4849b4c-84/s540x810/601b61883bbfb3318c2695eb5d871235600dcd44.gifv);
+
+
+}
+
+.image3 {
+    background-color: rgb(180, 149, 149);
+    width: 490px;
+    height: 450px;
+    position: relative;
+    left: 5px;
+    top: 5px;
+    background-image: url(https://64.media.tumblr.com/eadfdf561933cd5029a0993eca4458b3/e3964f73f4849b4c-a1/s540x810/1f692733bb2f1c05d3d5c482a6b24bc4b7de25f4.gifv);
+
+
+}
+
